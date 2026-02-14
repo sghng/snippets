@@ -24,8 +24,8 @@ Or copy paste the `show` portion to the top of the file.
 
 To add figures to the end, use this epilogue:
 
+#context counter(page).update(0)
 #pagebreak()
-#context counter(page).update(1)
 #context query(figure).join([#linebreak()])
 
 There are quite some extra work if you want it to be truly automated:
